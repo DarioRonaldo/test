@@ -1,0 +1,28 @@
+﻿[CSPro Application]
+Version=CSPro 7.7
+Label=SECTORES
+Name=SECTORES
+AppType=DataEntry
+OperatorID=No
+CAPI=Yes
+CreateListing=No
+CreateLog=No
+ShowErrorMessageNumbers=No
+ComboBoxShowOnlyDiscreteValues=Yes
+ParadataCollection=AllEvents
+ParadataDeviceStateMinutes=5
+[External Dictionaries]
+File=..\Dics\Municipios.dcf
+File=..\Dics\Departamentos.dcf
+[AppCode]
+File=.\Sectores.ent.apc
+[Message]
+File=.\Sectores.ent.mgf
+[Help]
+File=.\Sectores.ent.qsf
+[Forms]
+File=.\Sectores.fmf
+[Dictionary Types]
+Dict-Type=..\Dics\Municipios.dcf,External
+Dict-Type=..\Dics\Sectores.dcf,Input,.\Sectores.fmf
+Dict-Type=..\Dics\Departamentos.dcf,External

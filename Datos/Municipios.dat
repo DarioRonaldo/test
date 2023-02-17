@@ -1,0 +1,361 @@
+﻿0000100001Zona 1
+0000200001Zona 2
+0000300001Zona 3
+0000400001Zona 4
+0000500001Zona 5
+0000600001Zona 6
+0000700001Zona 7
+0000800001Zona 8
+0000900001Zona 9
+0001000001Zona 10
+0001100001Zona 11
+0001200001Zona 12
+0001300001Zona 13
+0001400001Zona 14
+0001500001Zona 15
+0001600001Zona 16
+0001700001Zona 17
+0001800001Zona 18
+0001900001Zona 19
+0002000001Zona 21
+0002100001Zona 24
+0002200001Zona 25
+0002300001Santa Catarina Pinula
+0002400001San José Pinula
+0002500001San José Del Golfo
+0002600001Palencia
+0002700001Chinautla
+0002800001San Pedro Ayampuc
+0002900001Mixco
+0003000001San Pedro Sacatepéquez
+0003100001San Juan Sacatepéquez
+0003200001San Raymundo
+0003300001Chuarrancho
+0003400001Fraijanes
+0003500001Amatitlán
+0003600001Villa Nueva
+0003700001Villa Canales
+0003800001San Miguel Petapa
+0000100002Guastatoya
+0000200002Morazán
+0000300002San Agustín Acasaguastlán
+0000400002San Cristobal Acasaguastlán
+0000500002El Jícaro
+0000600002Sansare
+0000700002Sanarate
+0000800002San Antonio La Paz
+0000100003Antigua Guatemala
+0000200003Jocotenango
+0000300003Pastores
+0000400003Sumpango
+0000500003Santo Domingo Xenacoj
+0000600003Santiago Sacatepéquez
+0000700003San Bartolomé Milpas Altas
+0000800003San Lucas Sacatepéquez
+0000900003Santa Lucía Milpas Altas
+0001000003Magdalena Milpas Altas
+0001100003Santa María De Jesús
+0001200003Ciudad Vieja
+0001300003San Miguel Dueñas
+0001400003Alotenango
+0001500003San Antonio Aguas Calientes
+0001600003Santa Catarina Barahona
+0000100004Chimaltenango
+0000200004San José Poaquíl
+0000300004San Martín Jilotepeque
+0000400004Comalapa
+0000500004Santa Apolonia
+0000600004Tecpán
+0000700004Patzún
+0000800004Pochuta
+0000900004Patzicía
+0001000004Santa Cruz Balanyá
+0001100004Acatenango
+0001200004Yepocapa
+0001300004San Andrés Itzapa
+0001400004Parramos
+0001500004Zaragoza
+0001600004El Tejar
+0000100005Escuintla
+0000200005Santa Lucía Cotzumalguapa
+0000300005La Democracia
+0000400005Siquinalá
+0000500005Masagua
+0000600005Tiquisate
+0000700005La Gomera
+0000800005Guanagazapa
+0000900005San José
+0001000005Iztapa
+0001100005Palín
+0001200005San Vicente Pacaya
+0001300005Nueva Concepción
+0001400005Sipacate
+0000100006Cuilapa
+0000200006Barberena
+0000300006Santa Rosa De Lima
+0000400006Casillas
+0000500006San Rafael Las Flores
+0000600006Oratorio
+0000700006San Juan Tecuaco
+0000800006Chiquimulilla
+0000900006Taxisco
+0001000006Santa María Ixhuatán
+0001100006Guazacapán
+0001200006Santa Cruz Naranjo
+0001300006Pueblo Nuevo Viñas
+0001400006Nueva Santa Rosa
+0000100007Sololá
+0000200007San José Chacayá
+0000300007Santa María Visitación
+0000400007Santa Lucía Utatlán
+0000500007Nahualá
+0000600007Santa Catarina Ixtahuacán
+0000700007Santa Clara La Laguna
+0000800007Concepción
+0000900007San Andrés Semetabaj
+0001000007Panajachel
+0001100007Santa Catarina Palopó
+0001200007San Antonio Palopó
+0001300007San Lucas Tolimán
+0001400007Santa Cruz La Laguna
+0001500007San Pablo La Laguna
+0001600007San Marcos La Laguna
+0001700007San Juan La Laguna
+0001800007San Pedro La Laguna
+0001900007Santiago Atitlán
+0000100008Totonicapán
+0000200008San Cristóbal Totonicapán
+0000300008San Francisco El Alto
+0000400008San Andrés Xecul
+0000500008Momostenango
+0000600008Santa María Chiquimula
+0000700008Santa Lucía La Reforma
+0000800008San Bartolo Aguas Calientes
+0000100009Quetzaltenango
+0000200009Salcajá
+0000300009Olintepeque
+0000400009San Carlos Sija
+0000500009Sibilia
+0000600009Cabricán
+0000700009Cajolá
+0000800009San Miguel Siguilá
+0000900009San Juan Ostuncalco
+0001000009San Mateo
+0001100009Concepción Chiquirichapa
+0001200009San Martín Sacatepéquez
+0001300009Almolonga
+0001400009Cantel
+0001500009Huitan
+0001600009Zunil
+0001700009Colomba
+0001800009San Francisco La Unión
+0001900009El Palmar
+0002000009Coatepeque
+0002100009Génova
+0002200009Flores Costa Cuca
+0002300009La Esperanza
+0002400009Palestina De Los Altos
+0000100010Mazatenango
+0000200010Cuyotenango
+0000300010San Francisco Zapotitlán
+0000400010San Bernardino
+0000500010San José El Idolo
+0000600010Santo Domingo
+0000700010San Lorenzo
+0000800010Samayac
+0000900010San Pablo Jocopilas
+0001000010San Antonio Suchitepéquez
+0001100010San Miguel Panán
+0001200010San Gabriel
+0001300010Chicacao
+0001400010Patulul
+0001500010Santa Bárbara
+0001600010San Juan Bautista
+0001700010Santo Tomás La Unión
+0001800010Zunilito
+0001900010Pueblo Nuevo
+0002000010Río Bravo
+0002100010San José La Máquina
+0000100011Retalhuleu
+0000200011San Sebastián
+0000300011Santa Cruz Muluá
+0000400011San Martín Zapotitlán
+0000500011San Felipe
+0000600011San Andrés Villa Seca
+0000700011Champerico
+0000800011Nuevo San Carlos
+0000900011El Asintal
+0000100012San Marcos
+0000200012San Pedro Sacatepéquez
+0000300012San Antonio Sacatepéquez
+0000400012Comitancillo
+0000500012San Miguel Ixtahuacán
+0000600012Concepción Tutuapa
+0000700012Tacaná
+0000800012Sibinal
+0000900012Tajumulco
+0001000012Tejutla
+0001100012San Rafael Pie De La Cuesta
+0001200012Nuevo Progreso
+0001300012El Tumbador
+0001400012El Rodeo
+0001500012Malacatán
+0001600012Catarina
+0001700012Ayutla
+0001800012Ocós
+0001900012San Pablo
+0002000012El Quetzal
+0002100012La Reforma
+0002200012Pajapita
+0002300012Ixchiguán
+0002400012San José Ojetenam
+0002500012San Cristóbal Cucho
+0002600012Sipacapa
+0002700012Esquipulas Palo Gordo
+0002800012Río Blanco
+0002900012San Lorenzo
+0003000012La Blanca
+0000100013Huehuetenango
+0000200013Chiantla
+0000300013Malacatancito
+0000400013Cuilco
+0000500013Nentón
+0000600013San Pedro Necta
+0000700013Jacaltenango
+0000800013San Pedro Soloma
+0000900013San Idelfonso Ixtahuacán
+0001000013Santa Bárbara
+0001100013La Libertad
+0001200013La Democracia
+0001300013San Miguel Acatán
+0001400013San Rafael La Independencia
+0001500013Todos Santos Cuchumatán
+0001600013San Juan Atitán
+0001700013Santa Eulalia
+0001800013San Mateo Ixtatán
+0001900013Colotenango
+0002000013San Sebastián Huehuetenango
+0002100013Tectitán
+0002200013Concepción Huista
+0002300013San Juan Ixcoy
+0002400013San Antonio Huista
+0002500013San Sebastián Coatán
+0002600013Santa Cruz Barillas
+0002700013Aguacatán
+0002800013San Rafael Petzal
+0002900013San Gaspar Ixchil
+0003000013Santiago Chimaltenango
+0003100013Santa Ana Huista
+0003200013Unión Cantinil
+0003300013Petatán
+0000100014Santa Cruz Del Quiché
+0000200014Chiché
+0000300014Chinique
+0000400014Zacualpa
+0000500014Chajul
+0000600014Chichicastenango
+0000700014Patzité
+0000800014San Antonio Ilotenango
+0000900014San Pedro Jocopilas
+0001000014Cunén
+0001100014San Juan Cotzal
+0001200014Joyabaj
+0001300014Nebaj
+0001400014San Andrés Sajcabajá
+0001500014San Miguel Uspantán
+0001600014Sacapulas
+0001700014San Bartolomé Jocotenango
+0001800014Canillá
+0001900014Chicamán
+0002000014Ixcán
+0002100014Pachalum
+0000100015Salamá
+0000200015San Miguel Chicaj
+0000300015Rabinal
+0000400015Cubulco
+0000500015Granados
+0000600015El Chol
+0000700015San Jerónimo
+0000800015Purulhá
+0000100016Cobán
+0000200016Santa Cruz Verapaz
+0000300016San Cristóbal Verapaz
+0000400016Tactic
+0000500016Tamahú
+0000600016Tucurú
+0000700016Panzós
+0000800016Senahú
+0000900016San Pedro Carchá
+0001000016San Juan Chamelco
+0001100016Lanquín
+0001200016Cahabón
+0001300016Chisec
+0001400016Chahal
+0001500016Fray Bartolomé De Las Casas
+0001600016Santa Catalina La Tinta
+0001700016Raxruhá
+0000100017Flores
+0000200017San José
+0000300017San Benito
+0000400017San Andrés
+0000500017La Libertad
+0000600017San Francisco
+0000700017Santa Ana
+0000800017Dolores
+0000900017San Luis
+0001000017Sayaxché
+0001100017Melchor de Mencos
+0001200017Poptún
+0001300017Las Cruces
+0001400017El Chal
+0000100018Puerto Barrios
+0000200018Livingston
+0000300018El Estor
+0000400018Morales
+0000500018Los Amates
+0000100019Zacapa
+0000200019Estanzuela
+0000300019Río Hondo
+0000400019Gualán
+0000500019Teculután
+0000600019Usumatlán
+0000700019Cabañas
+0000800019San Diego
+0000900019La Unión
+0001000019Huité
+0001100019San Jorge
+0000100020Chiquimula
+0000200020San José La Arada
+0000300020San Juan Ermita
+0000400020Jocotán
+0000500020Camotán
+0000600020Olopa
+0000700020Esquipulas
+0000800020Concepción Las Minas
+0000900020Quetzaltepeque
+0001000020San Jacinto
+0001100020Ipala
+0000100021Jalapa
+0000200021San Pedro Pinula
+0000300021San Luis Jilotepeque
+0000400021San Manuel Chaparrón
+0000500021San Carlos Alzatate
+0000600021Monjas
+0000700021Mataquescuintla
+0000100022Jutiapa
+0000200022El Progreso
+0000300022Santa Catarina Mita
+0000400022Agua Blanca
+0000500022Asunción Mita
+0000600022Yupiltepeque
+0000700022Atescatempa
+0000800022Jerez
+0000900022El Adelanto
+0001000022Zapotitlán
+0001100022Comapa
+0001200022Jalpatagua
+0001300022Conguaco
+0001400022Moyuta
+0001500022Pasaco
+0001600022San José Acatempa
+0001700022Quesada

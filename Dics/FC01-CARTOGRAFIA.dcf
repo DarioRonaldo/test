@@ -1,0 +1,510 @@
+﻿[Dictionary]
+Version=CSPro 7.7
+Label=FC01-CARTOGRAFIA
+Name=FC01_CARTOGRAFIA_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+SecurityOptions=298A22316ECB054D6EFC1178B86BF25E6C45546192C9002D3BC12F5DD6CB174D
+
+[Level]
+Label=FC01-CARTOGRAFIA Level
+Name=FC01_CARTOGRAFIA_LEVEL
+
+[IdItems]
+
+[Item]
+Label=DEPARTAMENTO
+Name=DEPTO
+Start=2
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=DEPARTAMENTO
+Name=DEPTO_VS1
+Value=1;1. GUATEMALA
+Value=2;2. EL PROGRESO
+Value=3;3. SACATEPEQUEZ
+Value=4;4. CHIMALTENANGO
+Value=5;5. ESCUINTLA
+Value=6;6. SANTA ROSA
+Value=7;7. SOLOLA
+Value=8;8. TOTONICAPAN
+Value=9;9. QUETZALTENANGO
+Value=10;10. SUCHITEPEQUZ
+Value=11;11. RETALHULEU
+Value=12;12. SAN MARCOS
+Value=13;13. HUEHUETENANGO
+Value=14;14. QUICHE
+Value=15;15. BAJA VERAPAZ
+Value=16;16. ALTA VERAPAZ
+Value=17;17. PETEN
+Value=18;18. IZABAL
+Value=19;19. ZACAPA
+Value=20;20. CHIQUIMULA
+Value=21;21. JALAPA
+Value=22;22. JUTIAPA
+
+[Item]
+Label=MUNICIPIO
+Name=MUPIO
+Start=4
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=SECTOR
+Name=SECTOR
+Start=6
+Len=5
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=AREA
+Name=AREA
+Start=11
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=AREA
+Name=AREA_VS1
+Value=1;1. URBANO
+Value=2;2. RURAL
+
+[Item]
+Label=CODIGO DEL CARTOGRAFO
+Name=SA06
+Start=12
+Len=3
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=CODIGO DEL SUPERVISOR
+Name=SA04
+Start=15
+Len=3
+DataType=Numeric
+ZeroFill=Yes
+
+[Record]
+Label=SECCION_A
+Name=SECCION_A
+RecordTypeValue='1'
+RecordLen=227
+
+[Item]
+Label=CATEGORIA
+Name=SA01
+Start=18
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=CATEGORIA
+Name=SA01_VS3
+Value=1;1. CIUDAD
+Value=2;2. VILLA
+Value=3;3. ZONA
+Value=4;4. PUEBLO
+Value=5;5. COLONIA
+Value=6;6. RESIDENCIAL
+Value=7;7. CONDOMINIO
+Value=8;8. ASENTAMIENTO
+Value=9;9. BARRIO
+Value=10;10. CANTÓN
+Value=11;11. LOTIFICACIÓN
+Value=12;12. ALDEA
+Value=13;13. CASERIO
+Value=14;14. FINCA
+Value=15;15. PARAJE
+Value=16;16. PARCELAMIENTO
+Value=17;17. MICROPARCELAMIENTO
+Value=18;18. HACIENDA
+Value=19;19. GRANJA
+Value=20;20. COMUNIDAD
+Value=21;21. COMUNIDAD AGRARIA
+Value=22;22. COMUNIDAD INDIGENA
+Value=23;23. SECTOR
+Value=24;24. LABOR
+Value=25;25. RANCHERÍA
+Value=26;26. URBANIZACIÓN
+Value=27;27. FRACCIONAMIENTO
+Value=28;28. GUARDIANIA
+Value=29;29. OTRA
+
+[Item]
+Label=NOMBRE DEL LUGAR POBLADO
+Name=SA02
+Start=20
+Len=200
+DataType=Alpha
+
+[Item]
+Label=DIA
+Name=SA07
+Start=220
+Len=2
+DataType=Numeric
+
+[Item]
+Label=MES
+Name=SA08
+Start=222
+Len=2
+DataType=Numeric
+
+[Item]
+Label=ANIO
+Name=SA09
+Start=224
+Len=4
+DataType=Numeric
+
+[Record]
+Label=SECCION_B
+Name=SECCION_B
+RecordTypeValue='2'
+MaxRecords=750
+RecordLen=652
+
+[Item]
+Label=ESTRUCTURA
+Name=SB01
+Start=18
+Len=3
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=ESTRUCTURA
+Name=SB01_VS1
+Value=1:999;1-9999
+
+[Item]
+Label=TOTAL PISOS
+Name=SB02
+Start=21
+Len=2
+DataType=Numeric
+
+[Item]
+Label=PISO DESDE
+Name=SB03
+Start=23
+Len=2
+DataType=Numeric
+
+[Item]
+Label=PISO HASTA
+Name=SB32
+Start=25
+Len=2
+DataType=Numeric
+
+[Item]
+Label=TOTAL LOCALES
+Name=SB26
+Start=27
+Len=2
+DataType=Numeric
+
+[Item]
+Label=LOCAL ACTUAL NO
+Name=SB04
+Start=29
+Len=2
+DataType=Numeric
+
+[Item]
+Label=TIPO DE LOCAL
+Name=SB05
+Start=31
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=TIPO DE LOCAL
+Name=SB05_VS2
+Value=1;1. Local sólo de habitación
+Value=2;2. Local de habitación y Comercio.
+Value=3;3. Local comercial
+Value=4;4. Institución Pública y / o privada.
+
+[Item]
+Label=CONDICION DEL LOCAL
+Name=SB06
+Start=32
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=CONDICION DEL LOCAL
+Name=SB06_VS1
+Value=1;1. OCUPADO CON PERSONAS PRESENTES
+Value=2;2. OCUPADO CON PERSONAS AUSENTES
+Value=3;3. OCUPADO TEMPORALMENTE
+Value=4;4. DESOCUPADO
+Value=5;5. EN CONTRUCCIÓN
+Value=6;6. RECHAZO
+
+[Item]
+Label=CORRELATIVO LOCALES
+Name=SB07
+Start=33
+Len=3
+DataType=Numeric
+
+[Item]
+Label=TOTAL DE HOGARES
+Name=SB08
+Start=36
+Len=2
+DataType=Numeric
+
+[Item]
+Label=HOGAR ACTUAL NO
+Name=SB09
+Start=38
+Len=2
+DataType=Numeric
+
+[Item]
+Label=CORRELATIVO HOGARES
+Name=SB10
+Start=40
+Len=3
+DataType=Numeric
+
+[Item]
+Label=TOTAL DE PERSONAS EN EL HOGAR
+Name=SB11
+Start=43
+Len=2
+DataType=Numeric
+
+[Item]
+Label=TOTAL HOMBRES
+Name=SB12
+Start=45
+Len=2
+DataType=Numeric
+
+[Item]
+Label=TOTAL MUJERES
+Name=SB13
+Start=47
+Len=2
+DataType=Numeric
+
+[Item]
+Label=TOTAL DE PERSONAS DE 0 A 5
+Name=SB14
+Start=49
+Len=3
+DataType=Numeric
+
+[Item]
+Label=TOTAL DE PERSONAS DE 6 A 14
+Name=SB15
+Start=52
+Len=3
+DataType=Numeric
+
+[Item]
+Label=TOTAL DE PERSONAS DE 15 A 29
+Name=SB16
+Start=55
+Len=3
+DataType=Numeric
+
+[Item]
+Label=TOTAL DE PERSONAS DE 30 A 39
+Name=SB17
+Start=58
+Len=3
+DataType=Numeric
+
+[Item]
+Label=TOTAL DE PERSONAS DE 40 A 49
+Name=SB18
+Start=61
+Len=3
+DataType=Numeric
+
+[Item]
+Label=TOTAL DE PERSONAS DE 50 A 64
+Name=SB19
+Start=64
+Len=3
+DataType=Numeric
+
+[Item]
+Label=TOTAL DE PERSONAS DE 65 O MAS
+Name=SB20
+Start=67
+Len=3
+DataType=Numeric
+
+[Item]
+Label=TOTAL DE PERSONAS SIN EDAD
+Name=SB31
+Start=70
+Len=3
+DataType=Numeric
+
+[Item]
+Label=SEXO DEL JEFE DE HOGAR
+Name=SB21
+Start=73
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=SEXO DEL JEFE DE HOGAR
+Name=SB21_VS3
+Value=1;1. MASCULINO
+Value=2;2. FEMENINO
+
+[Item]
+Label=NOMBRE DEL JEFE DEL HOGAR O NOMBRE DEL COMERCIO
+Name=SB22
+Start=74
+Len=100
+DataType=Alpha
+
+[Item]
+Label=DIRECCION
+Name=SB24
+Start=174
+Len=200
+DataType=Alpha
+
+[Item]
+Label=CARACTERISTICAS
+Name=SB25
+Start=374
+Len=200
+DataType=Alpha
+
+[Item]
+Label=TIEMPOINICIO_UNIX
+Name=TIEMPOINICIO_UNIX
+Start=574
+Len=10
+DataType=Numeric
+
+[Item]
+Label=TIEMPOINICIO_HHMMSS
+Name=TIEMPOINICIO_HHMMSS
+Start=584
+Len=6
+DataType=Numeric
+
+[Item]
+Label=TIEMPOFIN_UNIX
+Name=TIEMPOFIN_UNIX
+Start=590
+Len=10
+DataType=Numeric
+
+[Item]
+Label=TIEMPOFIN_HHMMSS
+Name=TIEMPOFIN_HHMMSS
+Start=600
+Len=6
+DataType=Numeric
+
+[Item]
+Label=TIEMPO_TOTAL
+Name=TIEMPO_TOTAL
+Start=606
+Len=6
+DataType=Numeric
+
+[Item]
+Label=LATITUD
+Name=SB27
+Start=612
+Len=10
+DataType=Numeric
+Decimal=6
+
+[Item]
+Label=LONGITUD
+Name=SB28
+Start=622
+Len=10
+DataType=Numeric
+Decimal=6
+
+[Item]
+Label=MOSTRAR MAPA
+Name=MOSTRAR_MAPA
+Start=632
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=MOSTRAR MAPA
+Name=MOSTRAR_MAPA_VS1
+Value=1;MAPA DE GOOGLE
+Value=2;MAPA OFLINE
+
+[Item]
+Label=LATITUD_GPS
+Name=SB29
+Start=633
+Len=10
+DataType=Numeric
+Decimal=6
+
+[Item]
+Label=LONGITUD_GPS
+Name=SB30
+Start=643
+Len=10
+DataType=Numeric
+Decimal=6
+
+[Record]
+Label=AUXILIARES
+Name=AUXILIARES
+RecordTypeValue='3'
+RecordLen=61
+
+[Item]
+Label=CODIGOUPM
+Name=CODIGOUPM
+Start=18
+Len=14
+DataType=Alpha
+
+[Item]
+Label=TIEMPO_ENCUESTA_INICIO
+Name=TIEMPO_ENCUESTA_INICIO
+Start=32
+Len=10
+DataType=Numeric
+
+[Item]
+Label=TIEMPO_ENCUESTA_FIN
+Name=TIEMPO_ENCUESTA_FIN
+Start=42
+Len=10
+DataType=Numeric
+
+[Item]
+Label=TIEMPO_TOTAL_ENCUESTA
+Name=TIEMPO_TOTAL_ENCUESTA
+Start=52
+Len=10
+DataType=Numeric

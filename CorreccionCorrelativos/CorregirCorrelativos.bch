@@ -1,0 +1,13 @@
+﻿[CSPro Application]
+Version=CSPro 7.7
+Label=CORREGIRCORRELATIVOS
+Name=CORREGIRCORRELATIVOS
+AppType=Batch
+[AppCode]
+File=.\CorregirCorrelativos.bch.apc
+[Message]
+File=.\CorregirCorrelativos.bch.mgf
+[Order]
+File=.\CorregirCorrelativos.ord
+[Dictionary Types]
+Dict-Type=..\Dics\FC01-CARTOGRAFIA.dcf,Input,.\CorregirCorrelativos.ord

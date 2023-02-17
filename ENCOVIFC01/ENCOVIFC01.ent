@@ -1,0 +1,35 @@
+﻿[CSPro Application]
+Version=CSPro 7.7
+Label=FC01_CARTOGRAFIA
+Name=FC01_CARTOGRAFIA
+AppType=DataEntry
+OperatorID=No
+PartialSave=Yes
+CAPI=Yes
+CaseTree=Always
+CreateListing=No
+CreateLog=No
+DisplayCodesAlongsideLabels=Yes
+ShowErrorMessageNumbers=No
+VerifyFrequency=1
+VerifyStart=RANDOM
+ParadataCollection=AllEvents
+ParadataDeviceStateMinutes=5
+[External Dictionaries]
+File=..\Dics\Municipios.dcf
+File=..\Dics\Sectores.dcf
+[AppCode]
+File=.\ENCOVIFC01.ent.apc
+[Message]
+File=.\ENCOVIFC01.ent.mgf
+[Help]
+File=.\ENCOVIFC01.ent.qsf
+[Forms]
+File=.\ENCOVIFC01.fmf
+[Dictionary Types]
+Dict-Type=..\Dics\Municipios.dcf,External
+Dict-Type=..\Dics\Sectores.dcf,External
+Dict-Type=..\Dics\FC01-CARTOGRAFIA.dcf,Input,.\ENCOVIFC01.fmf
+[Sync]
+Server=http://10.10.255.169/csweb/api
+Direction=Put

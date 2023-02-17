@@ -1,0 +1,23 @@
+﻿[CSPro Application]
+Version=CSPro 7.7
+Label=MENUSUPERVISOR
+Name=MENUSUPERVISOR
+AppType=DataEntry
+OperatorID=No
+CAPI=Yes
+CreateListing=No
+CreateLog=No
+ShowErrorMessageNumbers=No
+ComboBoxShowOnlyDiscreteValues=Yes
+ParadataCollection=AllEvents
+ParadataDeviceStateMinutes=5
+[AppCode]
+File=.\MenuSupervisor.ent.apc
+[Message]
+File=.\MenuSupervisor.ent.mgf
+[Help]
+File=.\MenuSupervisor.ent.qsf
+[Forms]
+File=.\MenuSupervisor.fmf
+[Dictionary Types]
+Dict-Type=..\Dics\MenuSupervisor.dcf,Input,.\MenuSupervisor.fmf

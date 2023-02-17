@@ -1,0 +1,105 @@
+﻿[FormFile]
+Version=CSPro 7.7
+Name=MENUSUPERVISOR_FF
+Label=MenuSupervisor
+DefaultTextFont=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+FieldEntryFont=0018 0000 0000 0000 0600 0000 0000 0000 0000 0000 0000 0000 0000 Courier New
+Type=SystemControlled
+  
+[Dictionaries]
+File=..\Dics\MenuSupervisor.dcf
+  
+[Form]
+Name=FORM000
+Label=MenuSupervisor Level
+QuestionTextHeight=309
+Level=1
+Size=718,551
+  
+Item=MENUSUPERVISOR_ID
+Item=OPCION
+  
+Box=163,139,693,469,Thin
+  
+[Text]
+Name=TEXT1
+Position=209,427,334,443
+Text=9. CERRAR SESIÓN.
+Form=1
+ 
+  
+[Text]
+Name=TEXT2
+Position=203,319,275,335
+Text=4. VALIDAR
+Form=1
+ 
+  
+[Text]
+Name=TEXT3
+Position=202,244,265,260
+Text=2. ENVIAR
+Form=1
+ 
+  
+[Text]
+Name=TEXT4
+Position=203,282,299,298
+Text=3. ACTUALIZAR
+Form=1
+ 
+  
+[Text]
+Name=TEXT5
+Position=201,211,287,227
+Text=1. CAPTURAR
+Form=1
+ 
+  
+[Text]
+Name=TEXT6
+Position=364,180,490,196
+Text=ELIJA UNA OPCIÓN.
+Form=1
+ 
+[EndForm]
+  
+[Level]
+Name=MENUSUPERVISOR_LEVEL
+Label=MenuSupervisor Level
+  
+[Group]
+Required=Yes
+Name=MENUSUPERVISOR_LEVEL_FORM
+Label=MenuSupervisor Level
+Form=1
+Max=1
+  
+[Field]
+Name=MENUSUPERVISOR_ID
+Position=395,46,410,66
+Item=MENUSUPERVISOR_ID,MENUSUPERVISOR_DICT
+Protected=Yes
+HideInCaseTree=Yes
+AutoIncrement=Yes
+DataCaptureType=TextBox
+Form=1
+  
+[Text]
+Position=176,49,366,65
+Text=MenuSupervisor Identification
+ 
+  
+[Field]
+Name=OPCION
+Position=371,506,386,526
+Item=OPCION,MENUSUPERVISOR_DICT
+DataCaptureType=TextBox
+Form=1
+  
+[Text]
+Position=189,509,234,525
+Text=Opcion
+ 
+[EndGroup]
+  

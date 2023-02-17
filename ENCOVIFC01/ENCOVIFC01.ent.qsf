@@ -1,0 +1,376 @@
+﻿---
+fileType: Question Text
+version: CSPro 7.7
+languages:
+  - name: EN
+    label: English
+styles:
+  - name: Normal
+    className: normal
+    css: |
+      font-family: Arial;font-size: 16px;
+  - name: Instruction
+    className: instruction
+    css: |
+      font-family: Arial;font-size: 14px;color: #0000FF;
+  - name: Heading 1
+    className: heading1
+    css: |
+      font-family: Arial;font-size: 36px;
+  - name: Heading 2
+    className: heading2
+    css: |
+      font-family: Arial;font-size: 24px;
+  - name: Heading 3
+    className: heading3
+    css: |
+      font-family: Arial;font-size: 18px;
+questions:
+  - name: FC01_CARTOGRAFIA_DICT.DEPTO
+    conditions:
+      - questionText:
+          EN: |
+            <p>FC01 versión 3.2</p><p><span style="font-size:16px;color:#000000;">Ingrese el código del departamento <span style="color:#0000ff;">[1 a 22].&nbsp;</span></span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.MUPIO
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">Ingrese el codigo del municipio&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SECTOR
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">Ingrese el codigo del sector&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.AREA
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#0000ff;">Urbano = 1&#160;</span></p>
+            <p><span style="font-size:16px;color:#0000ff;">Rural     = 2&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SA04
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">Ingrese el código del supervisor&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SA06
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">Ingrese el código del cartógrafo.&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SA01
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">Ingrese una categoria del lugar poblado&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SA02
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">Ingrese el nombre del lugar poblado.&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SB01
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="text-decoration:underline;font-size:16px;color:#000000;">Número de estructura.&#160;</span></p>
+            <p>&#160;</p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SB02
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">INGRESE EL TOTAL DE PISOS EXISTENTES EN LA ESTRUCTURA&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SB03
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">INGRESE EL NÚMERO DE PISO&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SB26
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">INGRESE EL NÚMERO TOTAL DE LOCALES EN EL PISO&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SB04
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">INGRESE EL NÚMERO DE LOCAL.&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SB05
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">INGRESE EL TIPO DE LOCAL&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SB06
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">CONDICION DE LOCAL&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SB07
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">LOCAL DE HABITACIÓN NÚMERO (ORDEN CORRELATIVO EN EL SECTOR).&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SB08
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">INGRESE EL TOTAL DE HOGARES EN EL LOCAL.&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SB09
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">INGRESE EL NÚMERO DE LOCAL&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SB10
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">HOGAR NÚMERO (ORDEN CORRELATIVO EN EL SECTOR).&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SB11
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">INGRESE EL TOTAL DE PERSONAS EN EL HOGAR&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SB12
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">INGRESE EL TOTAL DE HOMBRES&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SB13
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">INGRESE EL TOTAL DE MUJERES&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SB14
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">TOTAL DE PERSONAS DE 0 A 5&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SB15
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">TOTAL DE PERSONAS DE 6 A 14&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SB16
+    conditions:
+      - questionText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SB31
+    conditions:
+      - questionText:
+          EN: |
+            AQUI SE REGISTRAN PERSONAS QUE NO PROPORCIONARON SU EDAD.<p></p>
+  - name: FC01_CARTOGRAFIA_DICT.LUGAR_POBLADO
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">Ingrese el codigo del lugar poblado&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SA022
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">ingrese el nombre del lugar poblado&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SA03
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">Ingrese el numero del supervisor&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SA05
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">Ingrese el nombre del cartógrafo&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SC01
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">Ingrese el numero de estructura&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SC02
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">Ingrese el numero de pisos&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SC06
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">Ingrese la condicion del local&#160;</span></p>
+            <p>&#160;</p>
+            <p><span style="font-size:16px;color:#0000ff;">1 - Ocupado con personas presentes&#160;</span></p>
+            <p><span style="font-size:16px;color:#0000ff;">2 - Ocupado con personas ausentes&#160;</span></p>
+            <p><span style="font-size:16px;color:#0000ff;">3 - Ocupado temporalmente&#160;</span></p>
+            <p><span style="font-size:16px;color:#0000ff;">4 - Desocupado&#160;</span></p>
+            <p><span style="font-size:16px;color:#0000ff;">5 - En construccion&#160;</span></p>
+            <p><span style="font-size:16px;color:#0000ff;">6 - Rechazo&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SC07
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">Ingrese el local de habitacion No&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SC08
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">Ingrese el total de hogares en  el local de habitacion&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SC09
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">Ingrese el No. de orden del hogar en el local de habitacion&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SC10
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">Ingrese el hogar número&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SC11
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">Ingrese el total de personas en el hogar&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SC12
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">Ingrese el total de hombres&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SC13
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">Ingrese el total de mujeres&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SC14
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">Ingrese el nombre del jefe/a de hogar o nombre del comercio, fabrica, servicio o institucion&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SC15
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">Ingrese la direccion&#160;</span></p>
+        helpText:
+          EN: |
+            
+  - name: FC01_CARTOGRAFIA_DICT.SC16
+    conditions:
+      - questionText:
+          EN: |
+            <p><span style="font-size:16px;color:#000000;">Ingrese las caracteristicas&#160;</span></p>
+        helpText:
+          EN: |
+            
+...

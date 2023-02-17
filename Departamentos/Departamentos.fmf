@@ -1,0 +1,59 @@
+﻿[FormFile]
+Version=CSPro 7.7
+Name=DEPARTAMENTOS_FF
+Label=Departamentos
+DefaultTextFont=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+FieldEntryFont=0018 0000 0000 0000 0600 0000 0000 0000 0000 0000 0000 0000 0000 Courier New
+Type=SystemControlled
+  
+[Dictionaries]
+File=..\Dics\Departamentos.dcf
+  
+[Form]
+Name=FORM000
+Label=DEPARTAMENTOS Level
+Level=1
+Size=975,140
+  
+Item=POSTAL
+Item=DEPARTAMENTO
+  
+[EndForm]
+  
+[Level]
+Name=DEPARTAMENTOS_LEVEL
+Label=DEPARTAMENTOS Level
+  
+[Group]
+Required=Yes
+Name=DEPARTAMENTOS_LEVEL_FORM
+Label=DEPARTAMENTOS Level
+Form=1
+Max=1
+  
+[Field]
+Name=POSTAL
+Position=342,34,413,54
+Item=POSTAL,DEPARTAMENTOS_DICT
+DataCaptureType=TextBox
+Form=1
+  
+[Text]
+Position=148,35,311,51
+Text=CODIGO DEPARTAMENTO
+ 
+  
+[Field]
+Name=DEPARTAMENTO
+Position=343,95,950,115
+Item=DEPARTAMENTO,DEPARTAMENTOS_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=1
+  
+[Text]
+Position=149,98,316,114
+Text=NOMBRE DEPARTAMENTO
+ 
+[EndGroup]
+  

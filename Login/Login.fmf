@@ -1,0 +1,68 @@
+﻿[FormFile]
+Version=CSPro 7.7
+Name=LOGIN_FF
+Label=Login
+DefaultTextFont=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+FieldEntryFont=0018 0000 0000 0000 0600 0000 0000 0000 0000 0000 0000 0000 0000 Courier New
+Type=SystemControlled
+  
+[Dictionaries]
+File=..\Dics\Login.dcf
+  
+[Form]
+Name=FORM000
+Label=Login Level
+QuestionTextHeight=122
+Level=1
+Size=577,342
+CapturePos=320,25
+  
+Item=LOGIN_USER_ID
+Item=LOGIN_USER_PASSWD
+  
+Box=85,60,552,317,Thin
+  
+[Text]
+Name=TEXT1
+Position=246,105,369,121
+Text=INICION DE SESIÓN
+Form=1
+ 
+[EndForm]
+  
+[Level]
+Name=LOGIN_LEVEL
+Label=Login Level
+  
+[Group]
+Required=Yes
+Name=LOGIN_LEVEL_FORM
+Label=Login Level
+Form=1
+Max=1
+  
+[Field]
+Name=LOGIN_USER_ID
+Position=346,164,403,184
+Item=LOGIN_USER_ID,LOGIN_DICT
+DataCaptureType=TextBox
+Form=1
+  
+[Text]
+Position=188,167,236,183
+Text=Usuario
+ 
+  
+[Field]
+Name=LOGIN_USER_PASSWD
+Position=337,220,408,240
+Item=LOGIN_USER_PASSWD,LOGIN_DICT
+DataCaptureType=TextBox
+Form=1
+  
+[Text]
+Position=187,223,259,239
+Text=Contraseña
+ 
+[EndGroup]
+  

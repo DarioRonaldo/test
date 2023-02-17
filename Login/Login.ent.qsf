@@ -1,0 +1,39 @@
+﻿---
+fileType: Question Text
+version: CSPro 7.7
+languages:
+  - name: EN
+    label: English
+styles:
+  - name: Normal
+    className: normal
+    css: |
+      font-family: Arial;font-size: 16px;
+  - name: Instruction
+    className: instruction
+    css: |
+      font-family: Arial;font-size: 14px;color: #0000FF;
+  - name: Heading 1
+    className: heading1
+    css: |
+      font-family: Arial;font-size: 36px;
+  - name: Heading 2
+    className: heading2
+    css: |
+      font-family: Arial;font-size: 24px;
+  - name: Heading 3
+    className: heading3
+    css: |
+      font-family: Arial;font-size: 18px;
+questions:
+  - name: LOGIN_DICT.LOGIN_USER_ID
+    conditions:
+      - questionText:
+          EN: |
+            <p style="text-align: center;">INICIO DE SESIÓN DE USUARIO.</p><p style="text-align: center; ">INGRESE SU NÚMERO DE USUARIO:</p><p></p><p></p><p></p>
+  - name: LOGIN_DICT.LOGIN_USER_PASSWD
+    conditions:
+      - questionText:
+          EN: |
+            <p style="text-align: center; ">INICIO DE SESIÓN DE USUARIO.</p><p style="text-align: center; ">INGRESE SU CONTRASEÑA:</p><p></p>
+...

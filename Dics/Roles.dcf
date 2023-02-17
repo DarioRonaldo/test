@@ -1,0 +1,37 @@
+﻿[Dictionary]
+Version=CSPro 7.7
+Label=Roles
+Name=ROLES_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+SecurityOptions=997ECE7F8C25803DED75F6E5BF100AF18BC1AA90F683C4DD5DABE4A034EEBCE7
+
+[Level]
+Label=Roles Level
+Name=ROLES_LEVEL
+
+[IdItems]
+
+[Item]
+Label=Código Rol
+Name=ROLE_ID
+Start=2
+Len=3
+DataType=Numeric
+ZeroFill=Yes
+
+[Record]
+Label=Roles Record
+Name=ROLES_REC
+RecordTypeValue='1'
+RecordLen=54
+
+[Item]
+Label=Nombre
+Name=ROLE_NAME
+Start=5
+Len=50
+DataType=Alpha

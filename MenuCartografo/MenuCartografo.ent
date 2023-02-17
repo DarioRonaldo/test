@@ -1,0 +1,32 @@
+﻿[CSPro Application]
+Version=CSPro 7.7
+Label=MENUCARTOGRAFO
+Name=MENUCARTOGRAFO
+AppType=DataEntry
+OperatorID=No
+CAPI=Yes
+CreateListing=No
+CreateLog=No
+ShowErrorMessageNumbers=No
+ComboBoxShowOnlyDiscreteValues=Yes
+ParadataCollection=AllEvents
+ParadataDeviceStateMinutes=5
+[External Dictionaries]
+File=..\Dics\Departamentos.dcf
+File=..\Dics\Municipios.dcf
+File=..\Dics\Sectores.dcf
+File=..\Dics\Categorias.dcf
+[AppCode]
+File=.\MenuCartografo.ent.apc
+[Message]
+File=.\MenuCartografo.ent.mgf
+[Help]
+File=.\MenuCartografo.ent.qsf
+[Forms]
+File=.\MenuCartografo.fmf
+[Dictionary Types]
+Dict-Type=..\Dics\MenuCartografo.dcf,Input,.\MenuCartografo.fmf
+Dict-Type=..\Dics\Departamentos.dcf,External
+Dict-Type=..\Dics\Municipios.dcf,External
+Dict-Type=..\Dics\Sectores.dcf,External
+Dict-Type=..\Dics\Categorias.dcf,External

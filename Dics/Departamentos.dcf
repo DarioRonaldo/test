@@ -1,0 +1,37 @@
+﻿[Dictionary]
+Version=CSPro 7.7
+Label=DEPARTAMENTOS
+Name=DEPARTAMENTOS_DICT
+RecordTypeStart=0
+RecordTypeLen=0
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+SecurityOptions=C347FF6238FC63F600BFD89F7FFD25FEAB37D07E7F3E1CDF2DDB84BD4BFD3593
+
+[Level]
+Label=DEPARTAMENTOS Level
+Name=DEPARTAMENTOS_LEVEL
+
+[IdItems]
+
+[Item]
+Label=POSTAL
+Name=POSTAL
+Start=1
+Len=5
+DataType=Numeric
+ZeroFill=Yes
+
+[Record]
+Label=DEPARTAMENTOS Record
+Name=DEPARTAMENTOS_REC
+RecordTypeValue=''
+RecordLen=155
+
+[Item]
+Label=DEPARTAMENTO
+Name=DEPARTAMENTO
+Start=6
+Len=150
+DataType=Alpha

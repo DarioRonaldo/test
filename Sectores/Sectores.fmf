@@ -1,0 +1,98 @@
+﻿[FormFile]
+Version=CSPro 7.7
+Name=SECTORES_FF
+Label=Sectores
+DefaultTextFont=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+FieldEntryFont=0018 0000 0000 0000 0600 0000 0000 0000 0000 0000 0000 0000 0000 Courier New
+Type=SystemControlled
+  
+[Dictionaries]
+File=..\Dics\Sectores.dcf
+  
+[Form]
+Name=FORM000
+Label=SECTORES Level
+Level=1
+Size=1080,290
+  
+Item=SECTORES_ID
+Item=MUNICIPIOS_MUNICIPIO_ID
+Item=DEPARTAMENTOS_DEPTO_ID
+Item=NOMBRE_SECTOR
+Item=AREA_ID
+  
+[EndForm]
+  
+[Level]
+Name=SECTORES_LEVEL
+Label=SECTORES Level
+  
+[Group]
+Required=Yes
+Name=SECTORES_LEVEL_FORM
+Label=SECTORES Level
+Form=1
+Max=1
+  
+[Field]
+Name=SECTORES_ID
+Position=422,49,493,69
+Item=SECTORES_ID,SECTORES_DICT
+DataCaptureType=TextBox
+Form=1
+  
+[Text]
+Position=202,50,340,66
+Text=CODIGO DEL SECTOR
+ 
+  
+[Field]
+Name=DEPARTAMENTOS_DEPTO_ID
+Position=422,100,493,120
+Item=DEPARTAMENTOS_DEPTO_ID,SECTORES_DICT
+DataCaptureType=RadioButton
+Form=1
+  
+[Text]
+Position=201,103,393,119
+Text=CODIGO DEL DEPARTAMENTO
+ 
+  
+[Field]
+Name=MUNICIPIOS_MUNICIPIO_ID
+Position=424,146,495,166
+Item=MUNICIPIOS_MUNICIPIO_ID,SECTORES_DICT
+DataCaptureType=RadioButton
+Form=1
+  
+[Text]
+Position=204,144,358,160
+Text=CODIGO DEL MUNICIPIO
+ 
+  
+[Field]
+Name=AREA_ID
+Position=430,189,445,209
+Item=AREA_ID,SECTORES_DICT
+DataCaptureType=RadioButton
+Form=1
+  
+[Text]
+Position=206,190,241,206
+Text=AREA
+ 
+  
+[Field]
+Name=NOMBRE_SECTOR
+Position=417,245,1055,265
+Item=NOMBRE_SECTOR,SECTORES_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=1
+  
+[Text]
+Position=200,237,342,253
+Text=NOMBRE DEL SECTOR
+ 
+[EndGroup]
+  

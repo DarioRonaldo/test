@@ -1,0 +1,23 @@
+﻿[CSPro Application]
+Version=CSPro 7.7
+Label=DEPARTAMENTOS
+Name=DEPARTAMENTOS
+AppType=DataEntry
+OperatorID=No
+CAPI=Yes
+CreateListing=No
+CreateLog=No
+ShowErrorMessageNumbers=No
+ComboBoxShowOnlyDiscreteValues=Yes
+ParadataCollection=AllEvents
+ParadataDeviceStateMinutes=5
+[AppCode]
+File=.\Departamentos.ent.apc
+[Message]
+File=.\Departamentos.ent.mgf
+[Help]
+File=.\Departamentos.ent.qsf
+[Forms]
+File=.\Departamentos.fmf
+[Dictionary Types]
+Dict-Type=..\Dics\Departamentos.dcf,Input,.\Departamentos.fmf

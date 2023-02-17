@@ -1,0 +1,14 @@
+﻿[Run Information]
+Version=CSPro 7.7
+AppType=Entry
+[Files]
+Application=C:\cygwin64\home\USER\Proyectos\ENCOVI\TEST\Compilacion\Login\../MenuCartografo/MenuCartografo.ent
+InputData=|type=None
+[ExternalFiles]
+DEPARTAMENTOS_DICT=C:\cygwin64\home\USER\Proyectos\ENCOVI\TEST\Compilacion\Login\../Datos/Departamentos.dat
+MUNICIPIOS_DICT=C:\cygwin64\home\USER\Proyectos\ENCOVI\TEST\Compilacion\Login\../Datos/Municipios.dat
+SECTORES_DICT=C:\cygwin64\home\USER\Proyectos\ENCOVI\TEST\Compilacion\Login\../Datos/Sectores.dat
+CATEGORIAS_DICT=C:\cygwin64\home\USER\Proyectos\ENCOVI\TEST\Compilacion\Login\../Datos/Categorias.dat
+[Parameters]
+NameUser=RICARDO GARCIA                                    
+IdRole=5

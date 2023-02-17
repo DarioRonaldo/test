@@ -1,0 +1,37 @@
+﻿[Dictionary]
+Version=CSPro 7.7
+Label=CATEGORIAS
+Name=CATEGORIAS_DICT
+RecordTypeStart=0
+RecordTypeLen=0
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+SecurityOptions=F8E353BD97FC84BDFA44B1E51490968DD64A5D01CDC30488C6F1A786EC02636E
+
+[Level]
+Label=CATEGORIAS Level
+Name=CATEGORIAS_LEVEL
+
+[IdItems]
+
+[Item]
+Label=CATEGORIAS_ID
+Name=CATEGORIAS_ID
+Start=1
+Len=3
+DataType=Numeric
+ZeroFill=Yes
+
+[Record]
+Label=CATEGORIAS Record
+Name=CATEGORIAS_REC
+RecordTypeValue=''
+RecordLen=153
+
+[Item]
+Label=NOMBRE_CATEGORIA
+Name=NOMBRE_CATEGORIA
+Start=4
+Len=150
+DataType=Alpha

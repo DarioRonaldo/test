@@ -1,0 +1,18 @@
+﻿[Run Information]
+Version=CSPro 7.7
+AppType=Entry
+
+[Files]
+Application=.\ENCOVIFC01.ent
+InputData=..\Datos\fc01_cartografia_dict.csdb
+
+[ExternalFiles]
+MUNICIPIOS_DICT=..\Datos\Municipios.dat
+SECTORES_DICT=..\Datos\Sectores.dat
+
+[UserFiles]
+tempFile=
+
+[Parameters]
+IdRole=5
+NameUser=RICARDO GARCIA

@@ -1,0 +1,17 @@
+﻿[Run Information]
+Version=CSPro 7.7
+AppType=Batch
+
+[Files]
+Application=.\CorregirCorrelativos.bch
+InputData=..\Datos\fc01_cartografia_dict.csdb
+OutputData=..\Datos\fc01_cartografia_dict v2,1.csdb
+Listing=.\CorregirCorrelativos.TXT
+
+[Parameters]
+ViewListing=Always
+ViewResults=Yes
+ListingWidth=120
+MessageWrap=No
+ErrmsgOverride=No
+InputOrder=Sequential

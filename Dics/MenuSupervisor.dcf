@@ -1,0 +1,37 @@
+﻿[Dictionary]
+Version=CSPro 7.7
+Label=MenuSupervisor
+Name=MENUSUPERVISOR_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+SecurityOptions=988475DFE535EEF3DDE8AD28D79CF98BEFD1B5924629058D2701B4A10F0AA99D
+
+[Level]
+Label=MenuSupervisor Level
+Name=MENUSUPERVISOR_LEVEL
+
+[IdItems]
+
+[Item]
+Label=MenuSupervisor Identification
+Name=MENUSUPERVISOR_ID
+Start=2
+Len=1
+DataType=Numeric
+
+[Record]
+Label=MenuSupervisor Record
+Name=MENUSUPERVISOR_REC
+RecordTypeValue='1'
+RecordLen=3
+
+[Item]
+Label=Opcion
+Name=OPCION
+Start=3
+Len=1
+DataType=Numeric
+ZeroFill=Yes

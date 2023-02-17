@@ -1,0 +1,66 @@
+﻿[Dictionary]
+Version=CSPro 7.7
+Label=Users
+Name=USERS_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+SecurityOptions=6024901BA95D2920DA40BEA44EA0B6328AAF1F5B57982C4E306E64820D1E9D1E
+
+[Level]
+Label=Users Level
+Name=USERS_LEVEL
+
+[IdItems]
+
+[Item]
+Label=Codigo Usuario
+Name=USER_ID
+Start=2
+Len=4
+DataType=Numeric
+ZeroFill=Yes
+
+[Record]
+Label=Users Record
+Name=USERS_REC
+RecordTypeValue='1'
+RecordLen=62
+
+[Item]
+Label=Estado
+Name=USER_ESTADO
+Start=6
+Len=1
+DataType=Numeric
+ZeroFill=Yes
+
+[ValueSet]
+Label=Estado
+Name=USER_ESTADO_VS1
+Value=1;ACTIVO
+Value=2;INACTIVO
+
+[Item]
+Label=Contraseña
+Name=USER_PASSWD
+Start=7
+Len=3
+DataType=Numeric
+
+[Item]
+Label=Rol
+Name=USER_ROLE_ID
+Start=10
+Len=3
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=Nombre Usuario
+Name=USER_NAME
+Start=13
+Len=50
+DataType=Alpha

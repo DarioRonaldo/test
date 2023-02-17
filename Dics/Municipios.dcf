@@ -1,0 +1,45 @@
+﻿[Dictionary]
+Version=CSPro 7.7
+Label=MUNICIPIOS
+Name=MUNICIPIOS_DICT
+RecordTypeStart=0
+RecordTypeLen=0
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+SecurityOptions=0662A31DCFE64255A71FF825C8820C071EFF542DEB2561CCDAC64386E9E4E0A5
+
+[Level]
+Label=MUNICIPIOS Level
+Name=MUNICIPIOS_LEVEL
+
+[IdItems]
+
+[Item]
+Label=MUNICIPIO_ID
+Name=MUNICIPIO_ID
+Start=1
+Len=5
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=DEPTO_ID
+Name=DEPTO_ID
+Start=6
+Len=5
+DataType=Numeric
+ZeroFill=Yes
+
+[Record]
+Label=MUNICIPIOS Record
+Name=MUNICIPIOS_REC
+RecordTypeValue=''
+RecordLen=160
+
+[Item]
+Label=NOMBRE_MUNICIPIO
+Name=NOMBRE_MUNICIPIO
+Start=11
+Len=150
+DataType=Alpha

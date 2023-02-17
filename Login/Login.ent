@@ -1,0 +1,27 @@
+﻿[CSPro Application]
+Version=CSPro 7.7
+Label=LOGIN
+Name=LOGIN
+AppType=DataEntry
+OperatorID=No
+CAPI=Yes
+CaseTree=Desktop
+CreateListing=No
+CreateLog=No
+ShowErrorMessageNumbers=No
+ComboBoxShowOnlyDiscreteValues=Yes
+ParadataCollection=AllEvents
+ParadataDeviceStateMinutes=5
+[External Dictionaries]
+File=..\Dics\Users.dcf
+[AppCode]
+File=.\Login.ent.apc
+[Message]
+File=.\Login.ent.mgf
+[Help]
+File=.\Login.ent.qsf
+[Forms]
+File=.\Login.fmf
+[Dictionary Types]
+Dict-Type=..\Dics\Login.dcf,Input,.\Login.fmf
+Dict-Type=..\Dics\Users.dcf,External

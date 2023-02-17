@@ -1,0 +1,23 @@
+﻿[CSPro Application]
+Version=CSPro 7.7
+Label=ROLES
+Name=ROLES
+AppType=DataEntry
+OperatorID=No
+CAPI=Yes
+CreateListing=No
+CreateLog=No
+ShowErrorMessageNumbers=No
+ComboBoxShowOnlyDiscreteValues=Yes
+ParadataCollection=AllEvents
+ParadataDeviceStateMinutes=5
+[AppCode]
+File=.\Roles.ent.apc
+[Message]
+File=.\Roles.ent.mgf
+[Help]
+File=.\Roles.ent.qsf
+[Forms]
+File=.\Roles.fmf
+[Dictionary Types]
+Dict-Type=..\Dics\Roles.dcf,Input,.\Roles.fmf

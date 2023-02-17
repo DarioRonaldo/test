@@ -1,0 +1,72 @@
+﻿[FormFile]
+Version=CSPro 7.7
+Name=MUNICIPIOS_FF
+Label=Municipios
+DefaultTextFont=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+FieldEntryFont=0018 0000 0000 0000 0600 0000 0000 0000 0000 0000 0000 0000 0000 Courier New
+Type=SystemControlled
+  
+[Dictionaries]
+File=..\Dics\Municipios.dcf
+  
+[Form]
+Name=FORM000
+Label=MUNICIPIOS Level
+Level=1
+Size=1176,173
+  
+Item=MUNICIPIO_ID
+Item=DEPTO_ID
+Item=NOMBRE_MUNICIPIO
+  
+[EndForm]
+  
+[Level]
+Name=MUNICIPIOS_LEVEL
+Label=MUNICIPIOS Level
+  
+[Group]
+Required=Yes
+Name=MUNICIPIOS_LEVEL_FORM
+Label=MUNICIPIOS Level
+Form=1
+Max=1
+  
+[Field]
+Name=MUNICIPIO_ID
+Position=335,26,406,46
+Item=MUNICIPIO_ID,MUNICIPIOS_DICT
+DataCaptureType=TextBox
+Form=1
+  
+[Text]
+Position=185,29,274,45
+Text=MUNICIPIO_ID
+ 
+  
+[Field]
+Name=DEPTO_ID
+Position=336,70,407,90
+Item=DEPTO_ID,MUNICIPIOS_DICT
+DataCaptureType=RadioButton
+Form=1
+  
+[Text]
+Position=186,73,250,89
+Text=DEPTO_ID
+ 
+  
+[Field]
+Name=NOMBRE_MUNICIPIO
+Position=355,128,1151,148
+Item=NOMBRE_MUNICIPIO,MUNICIPIOS_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=1
+  
+[Text]
+Position=189,131,321,147
+Text=NOMBRE_MUNICIPIO
+ 
+[EndGroup]
+  

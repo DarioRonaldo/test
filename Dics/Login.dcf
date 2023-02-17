@@ -1,0 +1,37 @@
+﻿[Dictionary]
+Version=CSPro 7.7
+Label=Login
+Name=LOGIN_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+SecurityOptions=CB49BBF76F3886A73FE6B6DA9E643F36FB9D57CA1D1F638E84FA12B82500BCB1
+
+[Level]
+Label=Login Level
+Name=LOGIN_LEVEL
+
+[IdItems]
+
+[Item]
+Label=Usuario
+Name=LOGIN_USER_ID
+Start=2
+Len=4
+DataType=Numeric
+ZeroFill=Yes
+
+[Record]
+Label=Login Record
+Name=LOGIN_REC
+RecordTypeValue='1'
+RecordLen=8
+
+[Item]
+Label=Contraseña
+Name=LOGIN_USER_PASSWD
+Start=6
+Len=3
+DataType=Numeric

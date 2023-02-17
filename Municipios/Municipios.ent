@@ -1,0 +1,26 @@
+﻿[CSPro Application]
+Version=CSPro 7.7
+Label=MUNICIPIOS
+Name=MUNICIPIOS
+AppType=DataEntry
+OperatorID=No
+CAPI=Yes
+CreateListing=No
+CreateLog=No
+ShowErrorMessageNumbers=No
+ComboBoxShowOnlyDiscreteValues=Yes
+ParadataCollection=AllEvents
+ParadataDeviceStateMinutes=5
+[External Dictionaries]
+File=..\Dics\Departamentos.dcf
+[AppCode]
+File=.\Municipios.ent.apc
+[Message]
+File=.\Municipios.ent.mgf
+[Help]
+File=.\Municipios.ent.qsf
+[Forms]
+File=.\Municipios.fmf
+[Dictionary Types]
+Dict-Type=..\Dics\Departamentos.dcf,External
+Dict-Type=..\Dics\Municipios.dcf,Input,.\Municipios.fmf

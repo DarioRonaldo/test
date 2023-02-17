@@ -1,0 +1,10 @@
+﻿[Run Information]
+Version=CSPro 7.7
+AppType=Entry
+[Files]
+Application=C:\cygwin64\home\USER\Proyectos\ENCOVI\TEST\Compilacion\Login\../MenuSupervisor/MenuSupervisor.ent
+InputData=|type=None
+[ExternalFiles]
+[Parameters]
+NameUser=DOUGLAS LOAIZA                                    
+IdRole=4

@@ -1,0 +1,23 @@
+﻿[CSPro Application]
+Version=CSPro 7.7
+Label=CATEGORIAS
+Name=CATEGORIAS
+AppType=DataEntry
+OperatorID=No
+CAPI=Yes
+CreateListing=No
+CreateLog=No
+ShowErrorMessageNumbers=No
+ComboBoxShowOnlyDiscreteValues=Yes
+ParadataCollection=AllEvents
+ParadataDeviceStateMinutes=5
+[AppCode]
+File=.\Categorias.ent.apc
+[Message]
+File=.\Categorias.ent.mgf
+[Help]
+File=.\Categorias.ent.qsf
+[Forms]
+File=.\Categorias.fmf
+[Dictionary Types]
+Dict-Type=..\Dics\Categorias.dcf,Input,.\Categorias.fmf

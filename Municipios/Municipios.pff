@@ -1,0 +1,11 @@
+﻿[Run Information]
+Version=CSPro 7.7
+AppType=Entry
+
+[Files]
+Application=.\Municipios.ent
+InputData=..\Datos\Municipios.dat
+Paradata=.\Municipios.cslog
+
+[ExternalFiles]
+DEPARTAMENTOS_DICT=..\Datos\Departamentos.dat

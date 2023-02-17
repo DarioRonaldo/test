@@ -1,0 +1,59 @@
+﻿[FormFile]
+Version=CSPro 7.7
+Name=CATEGORIAS_FF
+Label=Categorias
+DefaultTextFont=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+FieldEntryFont=0018 0000 0000 0000 0600 0000 0000 0000 0000 0000 0000 0000 0000 Courier New
+Type=SystemControlled
+  
+[Dictionaries]
+File=..\Dics\Categorias.dcf
+  
+[Form]
+Name=FORM000
+Label=CATEGORIAS Level
+Level=1
+Size=1034,134
+  
+Item=CATEGORIAS_ID
+Item=NOMBRE_CATEGORIA
+  
+[EndForm]
+  
+[Level]
+Name=CATEGORIAS_LEVEL
+Label=CATEGORIAS Level
+  
+[Group]
+Required=Yes
+Name=CATEGORIAS_LEVEL_FORM
+Label=CATEGORIAS Level
+Form=1
+Max=1
+  
+[Field]
+Name=CATEGORIAS_ID
+Position=330,31,373,51
+Item=CATEGORIAS_ID,CATEGORIAS_DICT
+DataCaptureType=TextBox
+Form=1
+  
+[Text]
+Position=164,34,317,50
+Text=CODIGO DE CATEGORIA
+ 
+  
+[Field]
+Name=NOMBRE_CATEGORIA
+Position=335,89,1009,109
+Item=NOMBRE_CATEGORIA,CATEGORIAS_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=1
+  
+[Text]
+Position=165,91,304,107
+Text=NOMBRE_CATEGORIA
+ 
+[EndGroup]
+  

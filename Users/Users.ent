@@ -1,0 +1,26 @@
+﻿[CSPro Application]
+Version=CSPro 7.7
+Label=USERS
+Name=USERS
+AppType=DataEntry
+OperatorID=No
+CAPI=Yes
+CreateListing=No
+CreateLog=No
+ShowErrorMessageNumbers=No
+ComboBoxShowOnlyDiscreteValues=Yes
+ParadataCollection=AllEvents
+ParadataDeviceStateMinutes=5
+[External Dictionaries]
+File=..\Dics\Roles.dcf
+[AppCode]
+File=.\Users.ent.apc
+[Message]
+File=.\Users.ent.mgf
+[Help]
+File=.\Users.ent.qsf
+[Forms]
+File=.\Users.fmf
+[Dictionary Types]
+Dict-Type=..\Dics\Roles.dcf,External
+Dict-Type=..\Dics\Users.dcf,Input,.\Users.fmf

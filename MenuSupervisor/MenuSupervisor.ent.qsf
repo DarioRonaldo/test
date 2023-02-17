@@ -1,0 +1,39 @@
+﻿---
+fileType: Question Text
+version: CSPro 7.7
+languages:
+  - name: EN
+    label: English
+styles:
+  - name: Normal
+    className: normal
+    css: |
+      font-family: Arial;font-size: 16px;
+  - name: Instruction
+    className: instruction
+    css: |
+      font-family: Arial;font-size: 14px;color: #0000FF;
+  - name: Heading 1
+    className: heading1
+    css: |
+      font-family: Arial;font-size: 36px;
+  - name: Heading 2
+    className: heading2
+    css: |
+      font-family: Arial;font-size: 24px;
+  - name: Heading 3
+    className: heading3
+    css: |
+      font-family: Arial;font-size: 18px;
+questions:
+  - name: MENUSUPERVISOR_DICT.MENUSUPERVISOR_ID
+    conditions:
+      - questionText:
+          EN: |
+            <span style="font-size: 12px;">You are logged in as interviewer ~~nombre_usuario~~&nbsp;</span><p></p>
+  - name: MENUSUPERVISOR_DICT.OPCION
+    conditions:
+      - questionText:
+          EN: |
+            <p style="text-align: center; "><span style="font-size: 12px;">MENU DE SUPERVIDOR</span></p><p style="text-align: center;"><span style="font-size: 12px;">Bienvenido: ~~nombre_usuario~~&nbsp;</span></p><p style="text-align: center;"><span style="font-size: 12px;">Por favor digite una opción:</span></p><p style="text-align: center; "><span style="font-size: 12px;">1. CAPTURAR&nbsp;</span></p><p style="text-align: center;"><span style="font-size: 12px;">2. ENVIAR</span></p><p style="text-align: center;"><span style="font-size: 12px;">3. ACTUALIZAR.</span></p><p style="text-align: center; "><span style="font-size: 12px;">4. VALIDAR.</span></p><p style="text-align: center; "><span style="font-size: 12px;">9. CERRAR SESIÓN.</span></p><p></p><p></p>
+...

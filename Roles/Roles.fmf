@@ -1,0 +1,59 @@
+﻿[FormFile]
+Version=CSPro 7.7
+Name=ROLES_FF
+Label=Roles
+DefaultTextFont=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+FieldEntryFont=0018 0000 0000 0000 0600 0000 0000 0000 0000 0000 0000 0000 0000 Courier New
+Type=SystemControlled
+  
+[Dictionaries]
+File=..\Dics\Roles.dcf
+  
+[Form]
+Name=FORM000
+Label=Roles Level
+Level=1
+Size=604,187
+  
+Item=ROLE_ID
+Item=ROLE_NAME
+  
+[EndForm]
+  
+[Level]
+Name=ROLES_LEVEL
+Label=Roles Level
+  
+[Group]
+Required=Yes
+Name=ROLES_LEVEL_FORM
+Label=Roles Level
+Form=1
+Max=1
+  
+[Field]
+Name=ROLE_ID
+Position=246,72,289,92
+Item=ROLE_ID,ROLES_DICT
+DataCaptureType=TextBox
+Form=1
+  
+[Text]
+Position=80,75,150,91
+Text=Código Rol
+ 
+  
+[Field]
+Name=ROLE_NAME
+Position=169,142,579,162
+Item=ROLE_NAME,ROLES_DICT
+UseUnicodeTextBox=Yes
+DataCaptureType=TextBox
+Form=1
+  
+[Text]
+Position=93,145,143,161
+Text=Nombre
+ 
+[EndGroup]
+  

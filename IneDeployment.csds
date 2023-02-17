@@ -1,0 +1,163 @@
+{
+  "fileType": "Application Deployment Specification",
+  "version": "7.7",
+  "name": "INE",
+  "description": "Aplicaciones del Instituto Nacional de Estadistica V. 3.2",
+  "files": [
+    {
+      "path": ".\\Datos\\Categorias.dat"
+    },
+    {
+      "path": ".\\Datos\\Departamentos.dat"
+    },
+    {
+      "path": ".\\Datos\\Municipios.dat"
+    },
+    {
+      "path": ".\\Datos\\Roles.dat"
+    },
+    {
+      "path": ".\\Datos\\Sectores.dat"
+    },
+    {
+      "path": ".\\Datos\\Users.dat"
+    },
+    {
+      "path": ".\\ENCOVIFC01\\ENCOVIFC01.ent"
+    },
+    {
+      "path": ".\\ENCOVIFC01\\ENCOVIFC01.pff"
+    },
+    {
+      "path": ".\\Login\\Login.ent"
+    },
+    {
+      "path": ".\\Login\\Login.pff"
+    },
+    {
+      "path": ".\\Maps\\AEE010300167A1.mbtiles"
+    },
+    {
+      "path": ".\\Maps\\AEE010700531A1.mbtiles"
+    },
+    {
+      "path": ".\\Maps\\AEE011500984A1.mbtiles"
+    },
+    {
+      "path": ".\\Maps\\AEE011801474A1.mbtiles"
+    },
+    {
+      "path": ".\\Maps\\AEE012301871A1.mbtiles"
+    },
+    {
+      "path": ".\\Maps\\AEE013003383A2.mbtiles"
+    },
+    {
+      "path": ".\\Maps\\AEE013003387A2.mbtiles"
+    },
+    {
+      "path": ".\\Maps\\AEE013604572A1.mbtiles"
+    },
+    {
+      "path": ".\\Maps\\AEE070109421A2.mbtiles"
+    },
+    {
+      "path": ".\\Maps\\AEE071609869A1.mbtiles"
+    },
+    {
+      "path": ".\\Maps\\AEE080110040A1.mbtiles"
+    },
+    {
+      "path": ".\\Maps\\AEE080810717A2.mbtiles"
+    },
+    {
+      "path": ".\\Maps\\AEE090211055A2.mbtiles"
+    },
+    {
+      "path": ".\\Maps\\AEE091311492A1.mbtiles"
+    },
+    {
+      "path": ".\\Maps\\AEE120714225A2.mbtiles"
+    },
+    {
+      "path": ".\\Maps\\AEE120914294A1.mbtiles"
+    },
+    {
+      "path": ".\\Maps\\AEE140117295A1.mbtiles"
+    },
+    {
+      "path": ".\\Maps\\AEE140617718A2.mbtiles"
+    },
+    {
+      "path": ".\\Maps\\AEE150519185A2.mbtiles"
+    },
+    {
+      "path": ".\\Maps\\AEE150619205A1.mbtiles"
+    },
+    {
+      "path": ".\\Maps\\AEE161720908A2.mbtiles"
+    },
+    {
+      "path": ".\\Maps\\AEE170921751A1.mbtiles"
+    },
+    {
+      "path": ".\\Maps\\AEE210124304A2.mbtiles"
+    },
+    {
+      "path": ".\\Maps\\AEE210524649A2.mbtiles"
+    },
+    {
+      "path": ".\\Maps\\test.mbtiles"
+    },
+    {
+      "path": ".\\MenuCartografo\\MenuCartografo.ent"
+    },
+    {
+      "path": ".\\MenuCartografo\\MenuCartografo.pff"
+    },
+    {
+      "path": ".\\MenuSupervisor\\MenuSupervisor.ent"
+    },
+    {
+      "path": ".\\MenuSupervisor\\MenuSupervisor.pff"
+    }
+  ],
+  "dictionaries": [
+    {
+      "path": ".\\Dics\\Categorias.dcf"
+    },
+    {
+      "path": ".\\Dics\\Departamentos.dcf"
+    },
+    {
+      "path": ".\\Dics\\FC01-CARTOGRAFIA.dcf",
+      "uploadForSync": true
+    },
+    {
+      "path": ".\\Dics\\Login.dcf",
+      "uploadForSync": true
+    },
+    {
+      "path": ".\\Dics\\MenuCartografo.dcf",
+      "uploadForSync": true
+    },
+    {
+      "path": ".\\Dics\\MenuSupervisor.dcf",
+      "uploadForSync": true
+    },
+    {
+      "path": ".\\Dics\\Municipios.dcf"
+    },
+    {
+      "path": ".\\Dics\\Sectores.dcf"
+    },
+    {
+      "path": ".\\Dics\\Users.dcf"
+    }
+  ],
+  "deployment": {
+    "type": "CSWeb",
+    "cswebUrl": "https:\/\/cartografia.ine.gob.gt\/qa_csweb\/api",
+    "ftpUrl": "ftp:\/\/"
+  }
+}
